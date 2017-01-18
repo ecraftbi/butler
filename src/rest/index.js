@@ -4,7 +4,7 @@ module.exports = {
     slackPostMessage: require('./slackPostMessage.js'),
     createDir: require('./createDir.js'),
     createDirQVD: require('./createDirQVD.js'),
-    getDiskSpace: require('./getDiskSpace.js'),
+    // getDiskSpace: require('./getDiskSpace.js'),
     mqttPublishMessage: require('./mqttPublishMessage.js'),
     senseStartTask: require('./senseStartTask.js'),
     senseQRSPing: require('./senseQRSPing.js'),
