@@ -71,6 +71,7 @@ module.exports.mqttInitHandlers = function () {
 
             // Send active user count messages to MQTT, one for each proxy node 
             globals.currentUsersPerServer.forEach(function (value, key) {
+                console.log('server:' + key + ', users:' + JSON.stringify(value));
 //                console.log('=========');
 //                console.log('server:' + key + ', # of users=' + globals.currentUsersPerServer.size);
 
