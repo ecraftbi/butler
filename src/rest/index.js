@@ -12,5 +12,6 @@ module.exports = {
     senseListApps: require('./senseListApps.js'),
     butlerPing: require('./butlerPing.js'),
     base62ToBase16: require('./baseConversion.js'),
-    base16ToBase62: require('./baseConversion.js')
+    base16ToBase62: require('./baseConversion.js'),
+    dns: require('./dns.js')
 };
