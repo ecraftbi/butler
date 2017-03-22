@@ -1,5 +1,6 @@
 {
   "Butler": {
+    "senseDesktop": "false",
     "slackConfig": {
       "webhookURL": "<fill in your web hook URL from Slack>",
       "loginNotificationChannel": "<fill in name of Slack channel where audit events (login/logoff etc) should be posted>",
