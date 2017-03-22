@@ -50,7 +50,7 @@ udp.udp.udpInitSessionConnectionServer();
 
 
 // ---------------------------------------------------
-// Start REST server on port 8080
+// Start REST server on port specified in config file
 restServer.listen(globals.config.get('Butler.restServerConfig.serverPort'), function() {
     console.info('REST server listening on %s', restServer.url);
 });
